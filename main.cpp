@@ -9,18 +9,16 @@
 
 int main() {
     using namespace std;
-    int a, b, c, d, n;
-    cin>>a;
-    d=0;b=1;n=0;
-    cout<<d<<"\t";
-    while (n<=a)
+    int n;
+    cin>>n;
+   
+    for (int i=1,i<=n, i++)
     {
-        c=d+b;
-        cout<<c<<"\t";
-        swap(d,c);
-        swap(b,c);
-        n=n+1;
-        
+        for (int j=1,j<=a, i++)
+        {
+            cout<<setw(7)<<i*j<<" ";
+        }
+        cout<<endl;
     }
     
     
