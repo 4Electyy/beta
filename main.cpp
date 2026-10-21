@@ -1,5 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+//
+//  main.cpp
+//  1567
+//
+//  Created by Тимофей on 21.10.2026.
+//
+
 #include <iostream>
 
 int main() {
